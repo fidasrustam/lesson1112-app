@@ -1,0 +1,27 @@
+.menu-container{
+  width: 80%;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.active{
+  border: 1px solid #951DD1;
+  border-radius: 10px;
+  color: white;
+  background-color: #951DD1;
+  height: 30px;
+  padding-top: 5px;
+  width: 10vw;
+  text-align: center;  }
+.menu{
+  padding-top: 5px;
+  width: 10vw;
+  text-align: center;
+}
+.App{
+  text-align: center;
+}

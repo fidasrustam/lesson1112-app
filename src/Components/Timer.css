@@ -1,0 +1,50 @@
+.timer-button{
+    border: 1px solid #951DD1;
+  border-radius: 10px;
+  color: white;
+  background-color: #951DD1;
+  height: 30px;
+  padding-top: 5px;
+  width: 10vw;
+  text-align: center;
+  margin-left: 10px;
+}
+.dis-none{
+  display: none;
+}
+input{
+    height: 25px;
+    border-radius: 50px;
+    padding-left: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.buttons-inc-dec{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+}
+.buttons-inc-dec button{
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid #951DD1;
+  border-radius: 5px;
+  color: white;
+  background-color: #951DD1;
+  margin-left: 10px;
+}
+.hour, .minute, .second{
+  display: flex;
+  gap: 3px;
+}
+.hour h2, .minute h2, .second h2{
+  margin-top: 0px;
+  font-size: 45px;
+}
+.total{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
